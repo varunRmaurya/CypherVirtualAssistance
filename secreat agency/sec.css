@@ -1,0 +1,22 @@
+body{
+background-color: #000;
+}
+h2{
+    color: green;
+    }
+    .a1, .a2{
+    animation:blinking 1.5s infinite;
+    font-size: 20px;
+    }
+    @keyframes blinking{
+    0%{   color: red;   }
+    47%{   color: rgb(231, 31, 31); }
+    62%{   color: transparent; }
+    97%{   color:transparent; }
+    100%{  color: #000;   }
+    
+    }
+
+    .one{
+        color: white;
+    }
